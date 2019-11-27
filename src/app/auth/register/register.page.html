@@ -29,6 +29,9 @@
           <div padding>
             <ion-button  size="large" type="submit" [disabled]="form.invalid" expand="block">Register</ion-button>
           </div>
+          <div padding>
+            <ion-button size="large" (click)="redirectLogin()">Annuler</ion-button>
+          </div>
         </ion-col>
       </ion-row>
     </ion-grid>

@@ -21,13 +21,13 @@
             </ion-item>
           </div>
           <div padding>
-            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block">Login</ion-button>
+            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block" (click)="redirectHome()">Login</ion-button>
           </div>
         </ion-col>
       </ion-row>
       <ion-row justify-content-center>
         <div text-center>
-          If you don't have an account, please <a>register</a> first!
+          If you don't have an account, please <a (click)="redirectRegister()">register</a> first!
         </div>
     </ion-row>
     </ion-grid>
