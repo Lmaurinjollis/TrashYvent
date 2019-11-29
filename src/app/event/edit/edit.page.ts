@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-edit',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./edit.page.scss'],
 })
 export class EditPage implements OnInit {
+  croppedImagepath = '';
+  isLoading = false;
 
-  constructor() { }
+  imagePickerOptions = {
+    maximumImagesCount: 3,
+    quality: 50
+  };
+
+  constructor( private router: Router) { }
 
   ngOnInit() {
   }
 
+  redirectHome() {
+    this.router.navigateByUrl('/homepage');
+  }
 }

@@ -13,12 +13,13 @@ export class LoginPage implements OnInit {
   ngOnInit() {
   }
 
+  login(form) {
+    if (form.value.email === 'bob@email.com' && form.value.password === 'bob') {
+      this.router.navigateByUrl('/homepage');
+    }
+  }
+
   redirectRegister() {
     this.router.navigateByUrl('/register');
   }
-
-  redirectHome() {
-    this.router.navigateByUrl('/homepage');
-  }
-
 }

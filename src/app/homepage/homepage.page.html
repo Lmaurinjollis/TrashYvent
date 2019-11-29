@@ -1,9 +1,9 @@
 <ion-header>
   <ion-row>
       <ion-col>
-          <ion-text color="secondary">
-            <h5>Menu</h5>
-          </ion-text>
+          <ion-button color="secondary" (click)="redirectLogin()">
+            logout
+          </ion-button>
       </ion-col>
       <ion-col text-center padding-top>
         <ion-title>Localisation des évènement</ion-title>
@@ -19,4 +19,5 @@
 
 <ion-content>
     <div id="map_canvas"></div>
+      <ion-button (click)="redirectEdit()" shape="round" id="addEvent">+</ion-button>
 </ion-content>
