@@ -1,7 +1,35 @@
+ion-toolbar{
+  --background: #2d5502;
+  --color: #ffffff;
+
+  ion-button{
+    --background: green;
+  }
+}
+
+ion-row{
+  --background: #2d5502;
+}
+ion-col{
+  --background: #2d5502;
+}
+
+ion-button{
+  --background: #2d5502;
+}
+
+ion-item{
+  --background: #d9ffd9;
+}
+
+ion-content{
+  --background: #d9ffd9;
+}
+
 #map_canvas {
     width: 100%;
     height: 95%;
-    border: 1px solid red;
+    border: 1px solid green;
 }
    
    
@@ -33,6 +61,6 @@
 
 #addEvent{
   position: fixed;
-  left: 95%;
+  left: 85%;
   top: 95%;
 }

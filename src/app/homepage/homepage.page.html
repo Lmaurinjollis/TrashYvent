@@ -1,7 +1,8 @@
 <ion-header>
-  <ion-row>
+  <ion-toolbar>
+    <ion-row>
       <ion-col>
-          <ion-button color="secondary" (click)="redirectLogin()">
+          <ion-button (click)="redirectLogin()">
             logout
           </ion-button>
       </ion-col>
@@ -9,12 +10,13 @@
         <ion-title>Localisation des évènement</ion-title>
       </ion-col>
       <ion-col text-end>
-        <ion-button (click)="recenterMap()" shape="round" fill="outline">
+        <ion-button (click)="recenterMap()" shape="round">
           <ion-icon slot="start" name="locate"></ion-icon>
           Recentrer
         </ion-button>
       </ion-col>
     </ion-row>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
