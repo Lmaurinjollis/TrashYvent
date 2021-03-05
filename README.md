@@ -44,10 +44,14 @@ Google Map API
 
 ## How to use
 
-For now this app is not a finished product and can't work fully. 
+For now this app is not a finished product and can't work fully.
+
 If you want to test it, you'll have to clone this project wherever you want it to be.
+
 Change the API keys for Google map in the config.xml (click [here](https://developers.google.com/maps/documentation/maps-static/get-api-key) to learn how to get a Google map API key).
+
 The run the project with the command `ionic cordova run browser`
+
 Your browser should open a new tab with the app runing else go to `http://localhost:8000/`
 
 ## Credits
