@@ -23,11 +23,13 @@ The idea was to deploy an application that would encourage people to keep their 
 ### Event description
 
 When clicking on a marker on the map in homepage, we get this page:
+
 ![Event description](img/TrashYvent_EventDescription.png)
 
 ### Event form
 
 When clicking on the (+) button at the bottom of the homepage we get this form:
+
 ![Event form](img/TrashYvent_EventForm.png)
 
 ## Tech/Framework used
