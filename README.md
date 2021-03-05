@@ -56,4 +56,4 @@ Your browser should open a new tab with the app runing else go to `http://localh
 
 ## Credits
 
-Thanks to [Maxime DUFFAUT](https://github.com/DuffautM/) and [Anthony LUQUES](https://github.com/AnthonyLuqueCESI) which contributed to this project.
+Thanks to [Maxime DUFFAUT](https://github.com/DuffautM/) and [Anthony LUQUE](https://github.com/AnthonyLuqueCESI) which contributed to this project.
